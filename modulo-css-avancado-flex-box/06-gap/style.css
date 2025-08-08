@@ -1,0 +1,9 @@
+ .gap {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+} 
+/* 
+.container div {
+  margin-bottom: 50px;
+ } */
