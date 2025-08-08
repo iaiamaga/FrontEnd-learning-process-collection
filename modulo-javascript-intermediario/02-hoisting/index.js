@@ -1,0 +1,3 @@
+console.log(pais)
+
+var pais = 'Brasil' //atribuição
