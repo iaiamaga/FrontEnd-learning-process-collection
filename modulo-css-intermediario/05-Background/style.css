@@ -1,0 +1,36 @@
+p {
+    color: coral;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: lightgreen;
+    background-image: url(./imagem/imagembg.jpg);
+}
+
+.bg-image{
+   width: 600px;
+   height: 337px;
+}
+
+.bg-repeat{
+    background-repeat: no-repeat;
+    height: 674px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    height: 337px;
+    width: 600px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    height: 1200px;
+}
+
+.bg-position {
+    background: #460457 url('./imagem/imagembg.jpg') no-repeat top right;
+    height: 540px;
+}

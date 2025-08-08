@@ -1,0 +1,9 @@
+.fa-github-alt {
+    color: purple;
+    font-size: 60px;
+}
+
+.fa-github-alt:hover {
+    color: pink;
+    font-size:100px;
+}

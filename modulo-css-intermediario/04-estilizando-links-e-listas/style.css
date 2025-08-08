@@ -1,0 +1,50 @@
+h2 {
+    font-size: 60px;
+}
+
+a {
+    cursor:zoom-in;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cadetblue;
+}
+
+a:active {
+    color: violet;
+}
+
+a:hover {
+    background-color: black;
+    color: antiquewhite;
+}
+
+.lista-1{
+    background-color: rgba(18, 72, 134, 0.63);
+    list-style: georgian;
+    line-height: 100px;
+    display: inline-block;
+    width: 650px;
+    height: 650px;
+}
+
+
+.lista-1 li {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.lista-2 {
+    background-color: rgba(226, 98, 12, 0.63);
+    line-height: 100px;
+    display: inline-block;
+    width: 650px;
+    height: 650px;
+}
+
+.lista-2 li {
+    font-size: 30px;
+    padding: 5px;
+}
+

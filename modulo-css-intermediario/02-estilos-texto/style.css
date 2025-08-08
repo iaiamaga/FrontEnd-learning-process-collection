@@ -1,0 +1,64 @@
+* {
+    margin: 5px;
+    padding: 10px;
+}
+
+.fundo-alinhamento{
+    background-color: rgba(38, 128, 206, 0.623);
+}
+
+.alinhado-esquerda {
+    text-align: left;
+}
+
+.alinhado-direita {
+    text-align: right;
+}
+
+.alinhado-centro {
+    text-align: center;
+}
+
+.alinhado-justificado {
+    text-align: justify;
+}
+
+.fundo-transform {
+    background-color: rgba(192, 38, 206, 0.555);
+}
+
+.maiusculo {
+    text-transform: uppercase;
+}
+
+.minusculo {
+    text-transform: lowercase;
+}
+
+.capitalizado {
+    text-transform: capitalize;
+}
+
+.fundo{
+    background-color: rgba(165, 42, 42, 0.664);
+}
+
+.sublinhado {
+    text-decoration: underline;
+}
+
+.linha-sobreposta{
+    text-decoration: line-through;
+}
+
+.sem-text-decoration {
+    text-decoration: none;
+}
+
+.altura-entre-linhas {
+    line-height: 35px;
+}
+
+.sombra-texto {
+    text-shadow: 1px 2px 1px #000000;
+}
