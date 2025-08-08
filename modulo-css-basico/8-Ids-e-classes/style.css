@@ -1,0 +1,11 @@
+.descricao-produto {
+    background-color: rgba(8, 155, 8, 0.678);
+}
+
+.promocao {
+    border: groove 5px gold;
+}
+
+.preco {
+    border: dotted 5px red ;
+}

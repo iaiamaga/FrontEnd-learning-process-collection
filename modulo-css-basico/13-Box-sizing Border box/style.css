@@ -1,0 +1,19 @@
+div {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid rgb(6, 6, 117);
+}
+
+.com-borderbox {
+background-color:rgb(100, 19, 177);
+box-sizing: border-box;
+}
+
+.sem-borderbox{
+background-color: rgb(50, 11, 189);
+}
+
+/* width + padding esquerda + padding direita + border esquerda + border direita = largura total do elemento */ 
+
+/* height + padding de cima + padding de baixo + border de cima + border de baixo = altura total do elemento */ 

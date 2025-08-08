@@ -1,0 +1,22 @@
+html{
+    background-color: rgb(218, 32, 141);
+    font-size: 45px;
+}
+
+body {
+    background-color: orange;
+    width: 50%;
+    font-size: 2rem;
+}
+
+.pai {
+    background-color: yellow;
+    width: 50%;
+    font-size: 1.5rem
+}
+
+.filha {
+    background-color: greenyellow;
+    width: 50%;
+    font-size: 0.5rem
+}

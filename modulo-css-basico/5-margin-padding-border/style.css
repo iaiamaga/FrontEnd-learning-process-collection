@@ -1,0 +1,17 @@
+
+p{
+    margin: 30px 15px;
+    padding: 20px;
+    background-color: hsl(96, 67%, 37%);
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(214, 142, 8);
+}
+
+h1{
+    border: groove 15px rgb(3, 3, 112);
+}
+
+h2{
+    border: inset 10px rgb(3, 3, 112);
+}
