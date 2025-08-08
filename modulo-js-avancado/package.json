@@ -1,0 +1,19 @@
+{
+  "name": "usando_npm_teste",
+  "version": "1.0.0",
+  "description": "Projeto de teste de npm do módulo de js avançado do curso devquest",
+  "keywords": [
+    "javaScript",
+    "npm"
+  ],
+  "license": "ISC",
+  "author": "iaiakedemy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  }
+}
