@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    font-size: 80px;
+}
+
+h1{
+    color: greenyellow;
+}
+
+.paragrafo{
+    color: rgb(189, 2, 89);
+}
+
+#menu{
+    margin-left: 100px;
+}
+
+.titulo{
+    font-size: 10px;
+
+}
+
+.titulo.azul{
+    color: rgb(3, 46, 83);
+}
+
+.titulo.vermelho{
+    color: rgb(133, 7, 7);
+}
+
+p, span {
+    font-size: 18px;
+}
+
+.sobre .texto {
+    color: yellow;
+}
+
+div > p{
+   color:purple;
+}
+
+div + p {
+    color: royalblue;
+} /* estiliza todos os p que venham imediatamente depois de uma tag div*/
+
+a [target=_blank] {
+    color:red;
+}

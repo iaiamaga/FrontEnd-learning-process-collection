@@ -1,0 +1,29 @@
+* {
+    margin: 20px;
+    padding: 25px;
+}
+
+p::first-letter {
+    color: blueviolet;
+}
+
+.paragrafo::first-line {
+    color: brown;
+}
+
+li::marker {
+    color: green;
+    font-size: 100px;
+}
+
+.before::before{
+    content:"";
+    background: url(letra-i-melhorada\(82px\,81px\).png) center center no-repeat;
+    display: inline-block;
+    width: 82px;
+    height: 81px;    
+}
+
+.after::after{
+    content:url(letra-i-melhorada\(82px\,81px\).png);   
+}
