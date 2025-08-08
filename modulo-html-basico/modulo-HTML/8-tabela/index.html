@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        tfoot{
+            background-color: orange;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Tabela de artesanais imaginários</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>produto</th>
+                <th>quantidade</th>
+                <th>preço</th>
+                <th>custo</th>
+                <th>de bobeira</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>brigadeiro</td>
+                <td>20</td>
+                <td>3,00</td>
+                <td>30,40</td>
+                <td rowspan="2">supimpa</td>
+            </tr>
+            <tr>
+                <td>geleia de pimenta</td>
+                <td>15</td>
+                <td>12,00</td>
+                <td>50,99</td>
+            
+            </tr>
+
+            <tr>
+                <td>bolo de pote</td>
+                <td>25</td>
+                <td>10,00</td>
+                <td>60,00</td>
+                <td rowspan="2">badbad</td>
+            </tr>
+            <tr>
+                <td>biscoito</td>
+                <td>20 c/10</td>
+                <td>8,50</td>
+                <td>50,00</td>
+
+            </tr>
+           
+        </tbody>
+
+    <tfoot>
+        <tr>
+            <td colspan="2">total</td>
+            <td>660,00</td>
+            <td>200,00</td>
+            <td>supimpa</td>
+        </tr>
+    </tfoot>
+    </table>
+
+</body>
+
+</html>
