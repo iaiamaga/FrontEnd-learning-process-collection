@@ -1,0 +1,53 @@
+body {
+    font-family: 'Public sans', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 47px;
+    margin-bottom: 100px;
+}
+
+.logo h1 {
+    font-size: 40px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.menu a {
+    font-size: 40px;
+    font-weight: 400;
+   padding: 17px 38px;
+    transition: 0.3s ease-in-out;
+
+}
+
+ .menu li a:hover{
+    background-color: #5BC241;
+    color: #ffffff;
+    padding: 20px 50px;
+}
+
+.menu li a.button {
+    font-size: 18px;
+    background-color: #5BC241;
+    border-radius: 10px;
+    color: #ffffff;
+}

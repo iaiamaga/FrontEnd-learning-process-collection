@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400..700&display=swap');
+
+/* não lembrei de importar a iagem; muito menos em fazer dessse jeito ao invés de  por o link no html usar o iport direto do site*/
+
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+
+    font-size: 20px;
+}
+
+/* esqueci do vh também e da importancia de por valores de altura quando se quer centralizar algo */
+
+hr{
+    width: 100%;
+}
+/* o que é hr = O elemento é exibido mais frequentemente como uma regra horizontal que é usada para separar conteúdo */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%
+}
+
+/* importa a ordem que eu coloco as propriedades flex? pq? */
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px; 
+    /* o que é gap */
+
+    background-color: var(--card-color);
+    border-radius: 10px;
+
+    margin: 20px;
+    width: 350px;
+    height: 400px;
+}
+
+/* preciso  entender melhor comofunciona a dinamica de pai e filho na hora de colocar as propriedades flex. */
+
+.card .informacao-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+}
+/* a altura 100% é necessaria para a centralizacao do element; E OQ É GAP= */
+
+.card .informacao-perfil img {
+    border-radius: 200px;
+    margin-top: 20px;
+}
+
+/*border-radius serve para arredondar bordas,eu informo o valor do raio; poderia ser 50% tambem */
+
+.card .numeros-do-perfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* aqui o width 100% serve para o space-evenly funcionar */
+
+.numeros-do-perfil .info .numero, .card .informacao-perfil p{
+    color: rgb(235, 207, 205);
+    font-weight: 700;
+}
+
+.card .informacao-perfil .idade, .card .informacao-perfil .cidade, .numeros-do-perfil .info .numero-tipo{
+    color: var(--text-color);
+}
